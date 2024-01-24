@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T09:31:43.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="23.0.0" etag="gKWMa13jOKazVKVVHozX" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T09:41:17.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="miaT2yjsZxSEiu9rlZXK" version="23.0.0" type="github">
   <diagram name="Page-1" id="dRzKX7uDN2op6ZFsMsTr">
-    <mxGraphModel>
+    <mxGraphModel dx="1011" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="10" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-2" value="Epic Schedule Store" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-3" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="170" y="130" width="20" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-15" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="LHyEVdSiv4Fwj-c59Aah-7" target="LHyEVdSiv4Fwj-c59Aah-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Pull Epic Schedule" treeRoot="1" id="LHyEVdSiv4Fwj-c59Aah-7">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="285" y="220" width="140" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-12" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="90" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-18" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="LHyEVdSiv4Fwj-c59Aah-14" target="LHyEVdSiv4Fwj-c59Aah-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Parse Patient Info" treeRoot="1" id="LHyEVdSiv4Fwj-c59Aah-14">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="505" y="220" width="140" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-22" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="LHyEVdSiv4Fwj-c59Aah-17" target="LHyEVdSiv4Fwj-c59Aah-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Pull Additional Patient Info From MSBase" treeRoot="1" id="LHyEVdSiv4Fwj-c59Aah-17">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="730" y="220" width="140" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-24" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="LHyEVdSiv4Fwj-c59Aah-21" target="LHyEVdSiv4Fwj-c59Aah-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Create Asana Tasks Per Exam" treeRoot="1" id="LHyEVdSiv4Fwj-c59Aah-21">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="950" y="220" width="140" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-26" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="LHyEVdSiv4Fwj-c59Aah-23" target="LHyEVdSiv4Fwj-c59Aah-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHyEVdSiv4Fwj-c59Aah-28" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="LHyEVdSiv4Fwj-c59Aah-23" target="LHyEVdSiv4Fwj-c59Aah-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Create Order Forms&amp;nbsp;" treeRoot="1" id="LHyEVdSiv4Fwj-c59Aah-23">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="1170" y="220" width="140" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Upload order Forms" treeRoot="1" id="LHyEVdSiv4Fwj-c59Aah-25">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="1390" y="140" width="140" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Upload Parsed Patient Data&amp;nbsp;" treeRoot="1" id="LHyEVdSiv4Fwj-c59Aah-27">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" collapsed="1" parent="1">
+            <mxGeometry x="1400" y="270" width="140" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
